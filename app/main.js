@@ -1,3 +1,5 @@
+#!/usr/bin/electron --js-flags=--harmony-async-await
+
 'use strict';
 
 const { app, BrowserWindow } = require('electron');

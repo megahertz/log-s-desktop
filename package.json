@@ -1,10 +1,9 @@
 {
   "name": "log-s-desktop",
-  "version": "0.1.6",
+  "version": "0.1.11",
   "description": "GUI for Node server which collects logs from different clients",
   "main": "./app/main.js",
   "scripts": {
-    "install": "cd app && npm install",
     "start": "node_modules/.bin/electron --js-flags=--harmony-async-await --force-device-scale-factor=1.25 ./app/main.js"
   },
   "repository": {
@@ -35,7 +34,8 @@
     "log-s-desktop": "./app/main.js"
   },
   "dependencies": {
-    "electron": "*"
+    "electron": "*",
+    "log-s": "*"
   },
   "devDependencies": {
   }
