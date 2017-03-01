@@ -1,0 +1,42 @@
+{
+  "name": "log-s-desktop",
+  "version": "0.1.4",
+  "description": "GUI for Node server which collects logs from different clients",
+  "main": "app/main.js",
+  "scripts": {
+    "install": "cd app && npm install",
+    "start": "node_modules/.bin/electron --js-flags=--harmony-async-await --force-device-scale-factor=1.25 ./app/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megahertz/log-s-desktop.git"
+  },
+  "files": [
+    "index.js",
+    "app/",
+    "README.md"
+  ],
+  "keywords": [
+    "logging",
+    "server",
+    "websockets",
+    "gui"
+  ],
+  "author": "Alexey Prokhorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megahertz/log-s-desktop/issues"
+  },
+  "homepage": "https://github.com/megahertz/log-s-desktop#readme",
+  "engines": {
+    "node": ">=7.0"
+  },
+  "bin": {
+    "log-s-desktop": "./index.js"
+  },
+  "dependencies": {
+    "electron": "*"
+  },
+  "devDependencies": {
+  }
+}

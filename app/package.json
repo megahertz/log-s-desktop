@@ -1,0 +1,16 @@
+{
+  "name": "log-s-desltop",
+  "version": "0.1.4",
+  "description": "GUI for Node server which collects logs from different clients",
+  "author": "Alexey Prokhorov",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "log-s": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megahertz/log-s-desktop.git"
+  },
+  "devDependencies": {}
+}
