@@ -1,6 +1,6 @@
 {
-  "name": "log-s-desltop",
-  "version": "0.1.4",
+  "name": "log-s-desktop-app",
+  "version": "0.1.6",
   "description": "GUI for Node server which collects logs from different clients",
   "author": "Alexey Prokhorov",
   "private": true,
